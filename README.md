@@ -108,8 +108,9 @@ Through this literature review, we can strengthen the technical foundation of th
 ---
 
 Ball detected by AI
+![00000262](https://github.com/user-attachments/assets/02a8c0c5-ef53-4842-8298-eedd6598c08c)
 
-![00000262.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/e0d57b3c-2918-497d-8bc7-ddcfe5f32eaf/00000262.png)
+
 
 # ## Image acquisition method:
 - **Artificial intelligence video acquisition: We found the top 5 Korean University legendary goal videos on YouTube and acquired them using DarkLabel2.4 from Yolov5.**
@@ -118,7 +119,8 @@ Ball detected by AI
 
 [DarkLabel2.4.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/a61f8074-eee8-4940-ad80-3be76a74ccf2/DarkLabel2.4.zip)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/b24c09a2-e2db-474e-8c3b-cca7ae27f498/Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/d05d1c73-557d-4b30-88cb-9892d466987d)
+
 
 **If the video resolution is different, crop it to fit.**
 
@@ -126,7 +128,8 @@ Ball detected by AI
 
 **If it is 640x640, cut the video to fit the resolution and save it.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/f874b525-73ea-48f3-b1da-9076c62fe36a/image.png)
+<img width="619" alt="image" src="https://github.com/user-attachments/assets/41a85574-bf64-425a-94cd-96e8e726b5b9">
+
 
 # When you run the ZIP file, this will appear. Here, open the YAML file and add the classes for the contents to be extracted.
 
@@ -149,44 +152,54 @@ name: "darknet yolo"           # if not specified, "[fmt%d] $data_fmt" is used a
 
 **Class files and format files**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/bcfc6b5d-cdc8-4f54-a009-486f82725620/image.png)
+
+<img width="168" alt="image (1)" src="https://github.com/user-attachments/assets/a43e65f7-3ca8-4e8a-a1d1-98e1d8d880af">
+
 
 ### Open Video: Load the desired video or photo.
 Open Image Folder: Opens a folder containing multiple photos.
 0.pascal voc's select bar: Formatting Specifies the format. Here you can select the class name you want to label.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/b613ba16-9757-4469-b5b9-ed2de753c614/Untitled.png)
+
+<img width="140" alt="Untitled (1)" src="https://github.com/user-attachments/assets/e53161ed-57df-486d-8da3-3fed0b25d958">
 
 ### How to extract a video image
 Open open video and select the video you want to extract.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/d83e723d-0c9f-442d-b0f5-b0bc91989def/image.png)
+
+<img width="626" alt="image (2)" src="https://github.com/user-attachments/assets/64fa3b5d-08e3-4620-9baf-c904dde184cd">
 
 **Open the video, create a file to save the image to be extracted, and extract the image.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/d9083827-a90a-4b3a-8f0f-c30843fc1288/image.png)
+
+<img width="827" alt="image (3)" src="https://github.com/user-attachments/assets/21d79c92-b8f2-42b6-b3a3-e0e9d9968170">
 
 **Check Box + Label and label lane and ball.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/8b1bd829-ddbd-452d-8c72-5b144ad0a128/image.png)
+
+<img width="827" alt="image (4)" src="https://github.com/user-attachments/assets/01d50d61-78aa-4b68-8710-8815f89940f5">
 
 # learning
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/2932e38b-4d82-4a45-a530-0465ac042fbd/image.png)
+
+<img width="569" alt="image (5)" src="https://github.com/user-attachments/assets/7872b340-a91c-4175-ba37-cf77a1504380">
 
 ### After downloading yolov5
 Go into the installed yolov5 file and install the package.
 Then, the images and labels extracted from the yolov5 file created in this way are collected and the training is performed.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/3309e5ec-5c4c-47e9-ab24-4e8a51cc89f1/image.png)
+
+<img width="833" alt="image (6)" src="https://github.com/user-attachments/assets/a191ceea-d7da-452f-8bb9-9977c5752c9e">
 
 **Include both photos and labeling in the train and valid files.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/2eb5abb5-b8e2-44d8-8886-3493f780d80a/image.png)
+
+<img width="250" alt="image (7)" src="https://github.com/user-attachments/assets/bae682f8-5713-439e-9be7-f77b1552766c">
 
 ### learning outcomes
 
-![00000189.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/5a1fd234-528e-4dc8-b842-5c7756e09f4e/00000189.png)
+
+![00000189 (1)](https://github.com/user-attachments/assets/5c7400c8-0ff0-4825-bd52-4f44e50ba036)
 
 ```
 ##검증 데이터 만들기
@@ -197,14 +210,19 @@ from sklearn.model_selection import train_test_split
 
 **Trained label output train_batch**
 
-![train_batch0.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/77a439de-0c01-4ff2-a3e0-c737de6b79b5/train_batch0.jpg)
 
-![train_batch1.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/a7ce366f-91c4-44e9-ac47-081b8c640181/train_batch1.jpg)
+![train_batch0 (1)](https://github.com/user-attachments/assets/ffd55b94-343f-4acc-80aa-edb6013dc46c)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/ac62d1ad-d581-4088-9930-7324c5c274b5/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/89e0682c-a91d-4929-aaba-b2e0beebb64d/image.png)
+![train_batch1 (1)](https://github.com/user-attachments/assets/5bf8a622-685a-45b5-89e0-f17e71bb2d87)
+
+<img width="489" alt="image (8)" src="https://github.com/user-attachments/assets/fec589f9-a8be-4d28-b3fc-02b4a13ea7b8">
+
+<img width="606" alt="image (9)" src="https://github.com/user-attachments/assets/815988a6-216b-46b1-a16b-7a99acab3fce">
 
 학습 결과를 비디오로 
 
-[한국국대 레전드 골 top5 (1)_gt.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4449964-ec8f-4727-af39-ee4a29ebc257/87cc9e96-825a-420e-bb75-0e1c6150ca31/%ED%95%9C%EA%B5%AD%EA%B5%AD%EB%8C%80_%EB%A0%88%EC%A0%84%EB%93%9C_%EA%B3%A8_top5_(1)_gt.mp4)
+
+https://github.com/user-attachments/assets/b20f4d64-5664-41c5-96e4-c0073ef2c6e2
+
+
